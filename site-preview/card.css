@@ -1,0 +1,22 @@
+/* Adicionar ao final de assets/styles.css */
+.project-card {
+  padding: 24px;
+  border: 1px solid var(--line-strong);
+  border-radius: 14px;
+  background: linear-gradient(155deg,rgba(17,43,66,.85),rgba(6,19,32,.95));
+  transition: border-color .2s,transform .2s;
+}
+.project-card:hover { border-color: rgba(80,186,255,.5); transform: translateY(-3px); }
+.project-card-eyebrow {
+  margin: 0 0 12px;
+  color: var(--blue-2);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+.project-card h4 { margin: 0 0 11px; font-size: 23px; line-height: 1.25; letter-spacing: -.04em; }
+.project-card p:not(.project-card-eyebrow) { margin: 0; color: var(--muted-bright); font-size: 13px; line-height: 1.75; }
+.project-card-tags { display: flex; gap: 7px; flex-wrap: wrap; margin: 21px 0; }
+.project-card-tags span { padding: 5px 8px; border: 1px solid #23415a; border-radius: 7px; background: #0b1e2e; color: #bdcedb; font-size: 10px; }
+.project-card-link { color: var(--blue-2); font-size: 13px; font-weight: 750; }
+.project-card-link:hover { text-decoration: underline; }
